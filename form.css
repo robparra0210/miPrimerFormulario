@@ -1,0 +1,87 @@
+
+/* font-family: 'Varela', sans-serif; */
+
+
+html, body{
+	background: linear-gradient(to  bottom right, #0AADEA, #B722FF);
+	margin: 0;
+	height: 100%;
+	font-family: 'Varela', sans-serif;
+	background-attachment: fixed;
+}
+
+
+
+
+h1{
+	text-align: center;
+}
+
+.titulo{
+	text-align: center;
+	color: #fff;
+	background: #1A1A1A;
+	border-radius: 10px 10px 0 0;
+	height: 3em;
+}
+
+.titulo h2{
+	padding-top: 0.4em
+}
+
+
+
+.cuerpo{
+
+		margin:auto; 
+		background: #FFE5C1;
+		border-radius: 10px;
+		max-width: 40em;
+		margin-bottom: 5em;
+
+
+}
+
+.campos{
+	margin: inherit;
+	width: 90%;
+
+}
+
+.campo{
+	display: inline-flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 3em;
+
+
+}
+
+.campo p, .genero{
+	font-size: 18px;
+	margin: 0;
+	}
+
+
+.categoria{
+	color:#ABB1BA;
+	font-size: 12px;
+}
+
+.correo{
+	width: 3em;
+}
+
+
+textarea{
+	border-radius: 7px;
+	border:none;
+	resize: none;
+}
+
+
+button{
+	margin: 3em 0 2em 1em;
+	
+	align-content: center;
+}
